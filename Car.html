@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Car Object</title>
+    </head>
+    <body>
+        <script>
+            let car ={
+                brand: "Honda",
+                model: "Jazz",
+                year: 2019,
+                carDetails: function(){
+                    return `Car: ${this.brand} ${this.model}, Year: ${this.year}`;
+                }
+            };
+
+            console.log(car.carDetails());
+        </script>
+    </body>
+</html>
